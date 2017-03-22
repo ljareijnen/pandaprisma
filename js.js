@@ -50,13 +50,13 @@ verversPagina();
 function verversPagina(){
 	$("#button").html(
 		"<button class='btn' style='width:50px;' onclick='minder()'>" + "<<" + "</button>" +
-		"<button class='btn' style='width:200px;'>" + "Koop " + p.producten + " PandaPrisma's" + "</button>" +
+		"<button class='btn' style='width:200px;' href='winkel.html'>" + "Koop " + p.producten + " PandaPrisma's" + "</button>" +
 		"<button class='btn' style='width:50px;' onclick='meer()'>" + ">>" + "</button>"
 	);
 	$("#winkelwagen").html(
 				"<b>" + "Aantal: " + "</b>" + p.producten + "<br>" +
 				"<b>" + "Kosten incl. 21% btw: " + "</b>" + (p.producten * p.prijs) + "<br>" +
-				"<button class='btn' href='http://paypal.com/'>" + "Bestel" + "</button>"
+				"<button class='btn' href='www.paypal.com'>" + "Bestel" + "</button>"
 	)
 
 
