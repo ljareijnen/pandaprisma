@@ -56,7 +56,7 @@ function verversPagina(){
 	$("#winkelwagen").html(
 				"<b>" + "Aantal: " + "</b>" + p.producten + "<br>" +
 				"<b>" + "Kosten incl. 21% btw: " + "</b>" + (p.producten * p.prijs) + "<br>" +
-				"<button class='btn'>" + "Bestel" + "</button>"
+				"<button class='btn' href='http://paypal.com/'>" + "Bestel" + "</button>"
 	)
 
 
